@@ -4,5 +4,5 @@
 // return the new array.
 
 function filterRangeInPlace(arr, a, b) {
-    return arr.filter((number) => number >= a && number <= b);
+    return arr.filter(number => number >= a && number <= b);
 }
